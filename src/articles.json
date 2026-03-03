@@ -1,0 +1,10 @@
+{
+    "nodes": [
+        {"id": "Plato", "group": 1},
+        {"id": "Aristotle", "group": 2}
+    ],
+    "links": [
+        {"source": "Plato", "target": "Aristotle"}
+    ]
+
+}

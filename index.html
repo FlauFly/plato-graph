@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style> body { margin: 0; position: absolute; } </style>
+    <title>plato-graph</title>
+    <style>
+      .node-label {
+        font-size: 12px;
+        padding: 1px 4px;
+        border-radius: 4px;
+        background-color: rgba(0, 0, 0, 0.5);
+        user-select: none;
+      }
+
+      .info {
+        position: absolute;
+        z-index: 5000;
+        top: 16px;
+        left: 16px;
+        right: 16px;
+        border: 1px dashed rgba(255, 255, 255, 0.5);
+        background: rgba(0, 0, 0, 0.75);
+        color: rgb(255, 255, 255);
+        padding: 8px;
+        border-radius: 8px;
+        max-width: 500px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="info" id="info-card"></div>
+    <div id="3d-graph"></div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

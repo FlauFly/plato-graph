@@ -1,0 +1,12 @@
+{
+    "nodes": [
+        {"id": "Plato", "group": 1},
+        {"id": "Aristotle", "group": 2},
+        {"id": "Socrates", "group": 3}
+    ],
+    "links": [
+        {"source": "Plato", "target": "Aristotle"},
+        {"source": "Plato", "target": "Socrates"}
+    ]
+
+}
